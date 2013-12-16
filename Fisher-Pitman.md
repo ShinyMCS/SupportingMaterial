@@ -1,4 +1,4 @@
-Fisher-Pitman Test
+Paper: Fisher-Pitman Test
 ===========================
 *Neuhäuser M, Manly BF.*
 *Psychol Rep. 2004 Feb;94(1):189-94.*
