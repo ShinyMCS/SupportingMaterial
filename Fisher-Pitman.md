@@ -1,6 +1,7 @@
 Fisher-Pitman Test
 ===========================
-* Neuhäuser M, Manly BF.*
+*Neuhäuser M, Manly BF.*
+*Psychol Rep. 2004 Feb;94(1):189-94.*
  
 
 The Fisher-Pitman permutation test can detect any type of difference between two samples: 
