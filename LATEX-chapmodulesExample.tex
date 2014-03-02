@@ -1,0 +1,54 @@
+\documentstyle[slide]{article}
+\pagestyle{headings}
+%\pagestyle{plain}
+
+
+\def\footstring{\small lecture slides for textbook {\em Machine Learning},
+\copyright Tom M. Mitchell, McGraw Hill, 1997}
+
+\input{psfig.sty}
+\input{color.sty}
+\input epsf
+\def\argmax{\mathop{\rm argmax}}
+\def\argmin{\mathop{\rm argmin}}
+\newcommand{\tand}{\wedge}
+\newcommand{\tor}{\vee}
+\newcommand{\union}{\cup}
+\newcommand{\intersection}{\cap}
+\newcommand{\ch}{$\surd$}
+\newcommand{\pgm}[1]{{\sc #1}}
+\newcommand{\la}{\leftarrow}
+\newcommand{\ra}{\rightarrow}
+\newcommand{\<}{\langle}
+\newcommand{\lra}{\leftrightarrow}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+\newcommand{\entails}{\vdash}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  EDIT NEXT LINE TO INCLUDE JUST ONE CHAPTER'S WORTH OF SLIDES...
+
+\includeonly{ch1,ch2,ch3,ch4,ch5,ch6,ch7,ch8,ch9,ch10,ch12,ch13}
+
+\begin{document}
+
+\include{ch1} % Intro
+\include{ch2} % concept learning
+\include{ch3} % decisiontrees
+\include{ch4} % nnets
+\include{ch5} % statistics
+\include{ch6} % bayes, bayesnets
+\include{ch7} % pac-learning
+\include{ch8} % instance based learning
+\include{ch9} % genetic algs
+\include{ch10} % learning sets of rules
+% \include{ch11} % explanation based learning (coming soon)
+\include{ch12} % inductive/analytical learning
+\include{ch13} % reinforcement learning
+
+%\include{textlearn}
+%\include{summary}
+
+\end{document}
